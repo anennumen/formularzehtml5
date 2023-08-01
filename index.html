@@ -7,15 +7,24 @@
 </head>
 <body>
     <form action="form.php"> <br>
-<input type="text" name="imię"> imię <br>
-<input type="text" name="nazwisko"> nazwisko <br>
-<input type="email" name="email"> email<br>
-<input type="text" name="telefon"> telefon <br>
+<input id="fname" type="text" name="imię"> <br>
+<label for="fname">imię</label> <br>
+
+<input id="lname" type="text" name="nazwisko"> <br>
+<label for="lname">nazwisko</label> <br>
+
+<input id="email" type="text" name="email"><br>
+<label for="email">email</label> <br>
+
+<input id="telefon" type="text" name="telefon"> <br>
+<label for="telefon>">telefon </label> <br>
+
 <select name="city">
     <option value="Kraków">Kraków</option>
     <option value="Warszawa">Warszawa</option>
     <option value="Gdańsk">Gdańsk</option>
 </select> <br>
+
 <input type="radio" name="choise">Mężczyzna <br>
 <input type="radio" name="choise">Kobieta <br>
 <input type="checkbox" name="agreement"> Wyrażam zgodę na przetwarzanie danych osobowych <br>
